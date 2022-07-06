@@ -198,6 +198,7 @@ input{
 }
 
 #msg{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(210, 43, 76);  
+    font-style: italic;
 }
