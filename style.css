@@ -1,9 +1,10 @@
 body{
     margin:0;
+    
     font-family: 'Inter', sans-serif;
-    /* font-family: 'Lato', sans-serif; */
-    /* font-family: 'Poppins', sans-serif; */
-    /* font-family: 'PT Sans', sans-serif; */
+    /* font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif; */
 }
 .first-section h1{
     font-size: 50px;
@@ -11,7 +12,7 @@ body{
 }
 .top-banner{
     
-    
+
     text-align: center;
     color: white;
     background-image: url(images/donation13.jpg);
@@ -29,36 +30,43 @@ body{
 } */
 .button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(219, 55, 37),rgb(231, 144, 32));
-    color: whitesmoke;
+    background-color: rgb(210, 43, 76);
+    /* background-image: linear-gradient(rgba(240, 181, 174, 0.858),rgb(221, 40, 27)); */
+    color:antiquewhite;
+    ;
     font-weight: 700;
     padding: 10px 30px;
-    border-radius: 15px;
+    border-radius: 3px;
+    margin:0;
 }
 .second-section{
     text-align: center;
     width:fit-content;
     align-content: center;
     width:60%;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .header{
     font-size: 40px;
+    text-align: center;
    
 }
 .card{
     
-    margin: 10px 10px 30px 30px;
+    margin: 10px 10px 20px 10px;
     /* padding:20px 20px; */
-    height: 40px;
-    width: 70px;
-    padding: 15px 0 0px 0;
+    height: 50px;
+    width: 90px;
+    /* padding: 2%; */
     background-color: rgba(207, 199, 199, 0.234);
     border: 2px solid rgb(194, 194, 194);
     border-radius: 5px;
     text-align: center;
-    color:dimgrey;
-    font-weight: 700;
+    color:rgb(105, 100, 100);
+    /* font-weight: 700; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .donation-section{
     display:flex;
@@ -72,11 +80,11 @@ body{
 }
 .small-text{
     font-size: 15px;
-    color: rgb(206, 197, 197);
+    color: rgba(163, 153, 153, 0.952);
 }
 .text{
     font-size: 10px;
-    color:rgba(187, 182, 182, 0.952);
+    color:rgb(169, 151, 151);
 }
 .center1{
     margin-left: 37%;
@@ -86,6 +94,7 @@ body{
 
 .third-section{
     text-align: center;
+    margin-bottom: 60px;
 }
 .center2{
     margin-left: auto;
@@ -96,21 +105,64 @@ body{
     height: 220px;
     width: 300px;
     margin: 10px 10px 30px 30px;
-    padding: 50px 20px 20px 20px;
+    padding: 50px 20px 20px 25px;
+    border-radius: 3px;
+    border-left: 4px solid rgba(128, 128, 128, 0.446);
 }
 #plan1{
-    background-color: powderblue;
+    background-color: rgba(176, 224, 230, 0.956);
 }
 #plan2{
-    background-color: mistyrose;
+    background-color: rgba(255, 228, 225, 0.965);
 }
 #plan3{
-    background-color: lemonchiffon;
+    background-color: rgba(255, 250, 205, 0.963);
 }
 .plan-section{
     display:flex;
     justify-content: center;
     text-align: left;
+    
+}
+.forth-section{
+    background-color: rgba(243, 195, 195, 0.752);
+    text-align: center;
+    height:170px;
+    width: 80%;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey;
+
+}
+.donation-details{
+    display:flex;
+    justify-content: center;
+    
+}
+.detail{
+    margin: 10px 20px 10px 20px;
+    /* padding:20px 20px; */
+    height: 150px;
+    width: 200px;
+    /* padding: 42px 50px; */
+    font-size: xx-large;
+    font-weight: 800;
+    color:rgb(255, 255, 255); 
+    /* background-color: aqua; */
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    
+    
+}
+.detail-text{
+    font-size: 16px;
+    color: rgb(210, 43, 76);
+    text-align: center;
+    padding:0px 0px 0px 5px;
     
 }
 
@@ -125,6 +177,37 @@ body{
 
 
 
+
+.last-section{
+    text-align: center;
+}
+.form-part{
+    /* box-shadow: 16px 16px 40px rgba(99, 96, 96, 0.426); */
+    background-color: rgb(194, 194, 194) ;
+    height: 50px;
+    width:500px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 50px 40px 50px;
+    margin-bottom: 100px;  
+}
+#email{
+    padding: 10px 100px 10px 20px;
+    /* border-radius: 3px; */
+    margin-right:-4px;
+    background-color: rgba(255, 251, 251, 0.846);
+}
+#subscribe{
+    border-radius: 0%;
+}
+#centralizing{
+    display:flex;
+    justify-content: center;
+}
+
+input{
+    border: 0;   
+}
 
 .footer{
     background-color: black;
@@ -135,6 +218,5 @@ body{
 
 #msg{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(210, 43, 76);
-    
+    color: rgb(210, 43, 76);  
 }
